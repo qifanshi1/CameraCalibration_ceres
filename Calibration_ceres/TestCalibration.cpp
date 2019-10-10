@@ -77,6 +77,7 @@ int main()
 	findDistort(object_points, image_points_left, K_left, R_list_left, T_list_left, Distort_coeffs);
 
 	optimizeKDRT(object_points, image_points_left, K_left, R_list_left, T_list_left, Distort_coeffs);
-
+	
+	system("pause");
 	return 0;
 }
